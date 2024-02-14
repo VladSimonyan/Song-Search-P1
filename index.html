@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyricist</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="text-white uppercase font-semibold">Lyricist</header>
+
+    <div id="search-container">
+        <div id="search-flex">
+            <form>
+                <input id="input" type="text" placeholder="Song">
+                <button id="submit" style="background-color: whitesmoke;" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <main id="lyrics-flex">
+        <div id="lyrics-container"></div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/lyric-search.js"></script>
+</body>
+
+</html>
